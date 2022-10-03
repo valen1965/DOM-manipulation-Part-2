@@ -1,0 +1,62 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  align-items: center;
+  background: url('/images/project-4.jpg');
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 2px 10px black;
+}
+
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 35px;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button {
+    margin: 0 10px;
+    border: none;
+  }
+  
+  button i {
+    font-size: 4rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+  }
+  
+  #play {
+    background-color: green;
+  }
+  
+  #pause {
+    background-color: orange;
+  }
+  
+  #reset {
+    background-color: red;
+}
